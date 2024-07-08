@@ -31,6 +31,9 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+section {
+  padding: 120 auto;
+}
 
 /* header*/
 .page-header {
