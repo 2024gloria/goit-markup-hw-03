@@ -111,15 +111,13 @@ img {
 /*hero*/
 .image {
   background-color: #2e2f42;
-}
-.container-image {
   padding: 188px 0;
 }
+
 .section-team-item {
   background-color: #fff;
 }
 .image-titel {
-  padding-top: 188px;
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
@@ -142,7 +140,6 @@ img {
   border-radius: 4px;
   margin: 0 auto;
   padding: 16px 32px;
-  display: flex;
   height: 56px;
   border: none;
   align-items: flex-start;
@@ -159,7 +156,7 @@ img {
 }
 
 /* section 1*/
-.container-features {
+.features-sectoin {
   padding: 120px 0;
 }
 .features {
@@ -210,10 +207,10 @@ img {
 .section-team {
   text-align: center;
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .container-team {
   max-width: 1440px;
-  padding: 120px 0;
 }
 .titem-team {
   margin-bottom: 72px;
@@ -224,7 +221,7 @@ img {
   gap: 24px;
 }
 .team-kartka {
-  pad: 32px 0;
+  padding: 32px 0;
 }
 .section-team-item {
   border-radius: 0 0 4px 4px;
@@ -233,10 +230,14 @@ img {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+  width: calc((100% - 72px) / 4);
 }
 /*section 3*/
-.container-portfolio {
+.section-portfolio {
   padding: 120px 0;
+}
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-list {
   display: flex;
